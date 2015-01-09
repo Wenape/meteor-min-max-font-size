@@ -1,17 +1,10 @@
 Package.describe({
-  name: 'min-max-font-size',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  name: "wenape:min-max-font-size",
+  summary: "Using vw or vh CSS units? Set a min or max font-size for your type.",
+  version: "1.0.0",
+  git: 'https://github.com/Wenape/meteor-min-max-font-size'
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('1.0.2.1');
-  api.addFiles('min-max-font-size.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('min-max-font-size');
-  api.addFiles('min-max-font-size-tests.js');
+Package.on_use(function(api) {
+    api.add_files('client/mm-fontsize.js', 'client');
 });
