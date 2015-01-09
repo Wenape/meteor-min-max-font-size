@@ -5,21 +5,6 @@ min-max-font-size
 
 Using vw or vh CSS units for font-size? Set a min or max font-size for your type.
 
-## Setup
-
-Add `mm-fontsize.js` at the end of your HTML page, just before the closing `body` tag.
-
-```HTML
-	…
-	
-	<script src="./path-to-js/mm-fontsize.js" type="text/javascript"></script>
-		
-</body>
-</html>
-```
-
-Now you can start manually adjusting kerning in your own CSS.
-
 ## CSS Syntax
 
 To use the min-font-size or max-font-size propery, just write it in your CSS like any other property:
